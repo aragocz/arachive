@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>ShadowLegend Web</title>
+        <link rel = "stylesheet"
+        href = "links.css">
+        
+        <style type= "text/css">body {overflow: hidden;}
+        @font-face {
+            font-family: LemonMilk;
+            src: url(Reqs/LEMONMILK-Regular.otf);
+        }</style>
+        <script>
+            function Discord() {
+                document.getElementById("Discord").innerHTML = "Furuhashi Fumino#8496";
+                document.getElementById("Blizbutton").style= "visibility: visible;";
+            }
+        </script>
+        <script>
+            function Blizzard() {
+                document.getElementById("Blizzard").innerHTML = "ShadowLegend#21137";
+                document.getElementById("Blizbutton").style= "visibility: visible;";
+            }
+        </script>
+        <script >
+            function ReBlizzard() {
+                document.getElementById("Blizzard").innerHTML = "Blizzard";
+                document.getElementById("Blizbutton").style= "visibility: hidden;";
+            }
+        </script>
+        <script>
+            function ReDiscord() {
+                document.getElementById("Discord").innerHTML = "Discord Account";
+                document.getElementById("Discbutton").style= "visibility: hidden;";
+            }
+        </script>
+
+        
+    </head>
+    <body background="Reqs/bckgrnd-wpp.jpg" style= "user-select: none;">
+        <div class= "topnav">
+            <a class= "Home" href= "homepage.html">ShadowLegend</a>
+            <a class= "active" href= "homepage.html">Homepage</a>
+            <a class= "active"style= "cursor: not-allowed ;" onclick= "alert('Yo dude, you\'re already here, chill out. ')">Links</a>
+            <a class= "active" href= "http://legendbot.unaux.com">Łegend Bot</a>
+            
+        </div>
+        <div class= "Links">
+            
+            <h2 style= "font-family: LemonMilk; vertical-align: px; position: relative; left: 10px; top: 10px;">
+                <div class= "discord-widget">
+                    <iframe src="https://discordapp.com/widget?id=527826746498744346&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" ></iframe>
+                </div>
+
+                <a href= "https://bit.ly/ShadowServer" target= "_blank">Discord Server</a>
+                <br />
+                <a href= "https://twitch.tv/aragocz" target= "_blank">Twitch</a>
+                <br />
+                <a href= "https://bit.ly/ShadowComp" target= "_blank">PC</a>
+                <br />
+                <a href= "https://steamcommunity.com/id/_furuhashi" target= "_blank">Steam Account</a>
+                <br />
+                <a href= "https://steamcommunity.com/groups/aragocz" target= "_blank">Steam Group</a>
+                <br />
+                <a href= "https://www.youtube.com/channel/UCCwqCz7BYYX5aDP1dcPKu-w?view_as=subscriber" target= "_blank">YouTube</a>
+                <br />
+                <a href= "https://bit.ly/legendbot" target= "_blank">Discord bot :3</a>
+                <br />
+                <a href= "https://github.com/ShadowLegendCZ" target="_blank">Github</a>
+                <br />
+                <a id= "Blizzard" onclick= "Blizzard()">Blizzard</a><button id= "Blizbutton" onclick= "ReBlizzard()" style= "visibility: hidden;">Close Name</button>
+                <br />
+                <a id= "Discord" onclick= "Discord()">Discord Account</a><button id= "Discbutton" onclick= "ReDiscord()" style= "visibility: hidden;">Close Name</button>
+                <br />                
+               
+            </h2>
+            
+            
+        </div>
+        <footer><h2 style= "font-family: LemonMilk; text-align: center; user-select: none; background-color: red; vertical-align: bottom; position: absolute; bottom: 0; width: 99.2%;">Notice, this page is just a <a href= "oldstandby.html" target= "_blank" style= "cursor: default; color: black; text-decoration: none;">standby page!</a></h2></footer>
+    </body>
+</html>

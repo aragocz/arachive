@@ -1,0 +1,136 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(reqs/LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: ZeroHour;
+    src: url(Reqs/zero\ hour.ttf);
+}
+
+
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a.active {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: LemonMilk;
+    user-select: none;
+}
+
+.topnav a.active:hover {
+    background-color: #ddd;
+    color:black;
+    
+}
+
+.Links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.Links a:hover {
+    color: gray
+}
+
+.discord-widget {
+    text-align: right;
+    float: right;
+}
+
+a.Home {
+    color: #dfe5f3;
+    font-family: ZeroHour;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 30px;
+    border: 1px;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(rgb(46, 125, 156),rgb(46, 125, 156));
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms linear, opacity 500ms ;
+  }
+  
+  a.Home:hover {
+    background-size: 0 2px, 100% 2px;
+    opacity: 0.7 ;
+  }
+
+  .topnav .Discordacc {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: LemonMilk;
+}
+
+.topnav .Discordacc:hover {
+    background-color: #ddd;
+}
+
+.Discordacc {
+    font-family: LemonMilk;
+    cursor: default;
+    user-select: none;
+    font-size: 25px;
+    position: relative;
+    color: whitesmoke;
+  }
+
+  .Discordacc:hover .Discordspan{
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 2s;
+      cursor: default;
+  }
+
+  .Discordacc:hover {
+      cursor: pointer;
+  }
+
+  .Discordacc .Discordspan {
+    visibility: hidden;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    color: #f2f2f2;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position */
+    position: absolute;
+    z-index: 1;
+    bottom: -20%;
+    left: 15%;
+    margin-left: -20px;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 2s;
+  }
+
+    /* Arrow */
+    .Discordacc .Discordspan::after {
+        content: "";
+        position: absolute;
+        top: 30%;
+        left: -5%;
+        margin-left: -5px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent grey transparent transparent;
+      }
+

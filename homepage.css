@@ -1,0 +1,98 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(reqs/LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: ZeroHour;
+    src: url(Reqs/zero\ hour.ttf);
+}
+
+
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a.active {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: LemonMilk;
+    user-select: none;
+}
+
+.topnav a.active:hover {
+    background-color: #ddd;
+    color:black;
+    
+}
+
+.discord-widget {
+    float: right; 
+    text-align: right; 
+    vertical-align: middle;
+    
+    
+}
+
+a.Home {
+    color: #dfe5f3;
+    font-family: ZeroHour;
+    text-decoration: none;
+    user-select: none;
+    padding-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 30px;
+    border: 1px;
+    text-align: center;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(rgb(46, 125, 156),rgb(46, 125, 156));
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms linear, opacity 500ms ;
+  }
+  
+  a.Home:hover {
+    background-size: 0 2px, 100% 2px;
+    opacity: 0.7 ;
+  }
+
+  .ustext {
+    font-family: LemonMilk;
+    cursor: default;
+    user-select: none;
+    float: center;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+  }
+
+  .ustext:active .useless{
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 2s;
+  }
+
+  .ustext .useless {
+    visibility: hidden;
+    width: 500px;
+    background-color: blue;
+    color: #f2f2f2;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position */
+    position: absolute;
+    z-index: 1;
+    bottom: -125%;
+    left: 40%;
+    margin-left: -60px;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 2s;
+  }
