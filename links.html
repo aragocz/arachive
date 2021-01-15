@@ -12,13 +12,13 @@
         <script>
             function Discord() {
                 document.getElementById("Discord").innerHTML = "Furuhashi Fumino#8496";
-                document.getElementById("Blizbutton").style= "visibility: visible;";
+                document.getElementById("Discbutton").style= "visibility: visible; background-color: grey; border-radius: 10px; border: none; padding: 4px 8px;";
             }
         </script>
         <script>
             function Blizzard() {
                 document.getElementById("Blizzard").innerHTML = "ShadowLegend#21137";
-                document.getElementById("Blizbutton").style= "visibility: visible;";
+                document.getElementById("Blizbutton").style= "visibility: visible; background-color: grey; border-radius: 10px; border: none; padding: 4px 8px;";
             }
         </script>
         <script >
@@ -41,7 +41,7 @@
             <a class= "Home" href= "index.html">ShadowLegend</a>
             <a class= "active" href= "index.html">Homepage</a>
             <a class= "active"style= "cursor: not-allowed ;" onclick= "alert('Yo dude, you\'re already here, chill out. ')">Links</a>
-            <a class= "active" href= "http://legendbot.unaux.com">Łegend Bot</a>
+            <a class= "active" href= "legendbot subdomain/homepage.html">Łegend Bot</a>
             
         </div>
         <div class= "Links">
@@ -55,21 +55,17 @@
                 <br />
                 <a href= "https://twitch.tv/aragocz" target= "_blank">Twitch</a>
                 <br />
-                <a href= "https://bit.ly/ShadowComp" target= "_blank">PC</a>
-                <br />
                 <a href= "https://steamcommunity.com/id/_furuhashi" target= "_blank">Steam Account</a>
                 <br />
                 <a href= "https://steamcommunity.com/groups/aragocz" target= "_blank">Steam Group</a>
                 <br />
                 <a href= "https://www.youtube.com/channel/UCCwqCz7BYYX5aDP1dcPKu-w?view_as=subscriber" target= "_blank">YouTube</a>
                 <br />
-                <a href= "legendbot subdomain/homepage.html" target= "_blank">Discord bot :3</a>
-                <br />
                 <a href= "https://github.com/ShadowLegendCZ" target="_blank">Github</a>
                 <br />
-                <a id= "Blizzard" onclick= "Blizzard()">Blizzard</a><button id= "Blizbutton" onclick= "ReBlizzard()" style= "visibility: hidden;">Close Name</button>
+                <a id= "Blizzard" onclick= "Blizzard()">Blizzard</a> <span id= "Blizbutton" class= "Blizzard" onclick= "ReBlizzard()" style= "visibility: hidden;">Close</span>
                 <br />
-                <a id= "Discord" onclick= "Discord()">Discord Account</a><button id= "Discbutton" onclick= "ReDiscord()" style= "visibility: hidden;">Close Name</button>
+                <a id= "Discord" onclick= "Discord()">Discord Account</a> <span id= "Discbutton" class= "Discord" onclick= "ReDiscord()" style= "visibility: hidden;">Close</span>
                 <br />                
                
             </h2>

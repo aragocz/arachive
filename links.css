@@ -75,62 +75,20 @@ a.Home {
     font-size: 17px;
     font-family: LemonMilk;
 }
-
-.topnav .Discordacc:hover {
-    background-color: #ddd;
+   
+span.Discord{
+    color: black
 }
 
-.Discordacc {
-    font-family: LemonMilk;
-    cursor: default;
-    user-select: none;
-    font-size: 25px;
-    position: relative;
-    color: whitesmoke;
-  }
+span.Discord:hover{
+    color: rgb(39, 39, 39);
+}
 
-  .Discordacc:hover .Discordspan{
-      visibility: visible;
-      opacity: 1;
-      transition: opacity 2s;
-      cursor: default;
-  }
+span.Blizzard{
+    color: black;
+}
 
-  .Discordacc:hover {
-      cursor: pointer;
-  }
-
-  .Discordacc .Discordspan {
-    visibility: hidden;
-    width: 350px;
-    background-color: transparent;
-    border-radius: 5px;
-    border-color: grey;
-    border-style: solid;
-    color: #f2f2f2;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    /* Position */
-    position: absolute;
-    z-index: 1;
-    bottom: -20%;
-    left: 15%;
-    margin-left: -20px;
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: opacity 2s;
-  }
-
-    /* Arrow */
-    .Discordacc .Discordspan::after {
-        content: "";
-        position: absolute;
-        top: 30%;
-        left: -5%;
-        margin-left: -5px;
-        border-width: 10px;
-        border-style: solid;
-        border-color: transparent grey transparent transparent;
-      }
+span.Blizzard:hover{
+    color: rgb(39, 39, 39);
+}
 
