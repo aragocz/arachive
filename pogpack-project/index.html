@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>PogPack-Project</title>
+        <link rel= "stylesheet"
+        href= "index.css">
+        <noscript>This can't work without JavaScript! If you don't know how to enable it, text me, if you don't know who i am, wtf are u doing on this part of the page ? <a href= "https://shadowlegendcz.github.io/">Return back to normal page</a></noscript>
+        <script>
+            function passMatch() {
+                const passw = process.env.pass;
+                const path = process.env.pagepath;
+                const inppass = document.getElementById("pass").value;
+                if(inppass === passw){
+                    window.location.replace(path)
+                }else{
+                    window.alert("Wrong!")
+                }
+            }    
+        </script>
+        <script src= pass.js>
+            
+        </script>
+    </head>
+    <body style= "background: grey;">
+        <h1 class= "upper">Project PogPack is locked</h1>
+        <br />
+        <label for= "pass">Password:</label><br>
+        <input type= "password" id="pass" name="pass">
+        <button onclick= "passMatch()">Log in</button>
+    </body>
+</html>
